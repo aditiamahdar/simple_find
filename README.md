@@ -4,6 +4,22 @@
 
 It is shortcut for Rails so if we want to have array finder which raise not found error, simply just use find! (with bang)
 
+## Installation
+
+Add this line to your application's Gemfile:
+
+```ruby
+gem 'simple_find'
+```
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install simple_find
+
 ## Usage
 ```ruby
 names = ['Adit', 'Mpit', 'Hujan']
