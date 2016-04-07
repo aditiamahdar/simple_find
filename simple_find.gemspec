@@ -8,10 +8,10 @@ Gem::Specification.new do |s|
   s.name        = "simple_find"
   s.version     = SimpleFind::VERSION
   s.authors     = ["Aditia Mahdar"]
-  s.email       = ["adit@41studio.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of SimpleFind."
-  s.description = "TODO: Description of SimpleFind."
+  s.email       = ["adit.mahdar@gmail.com"]
+  s.homepage    = "https://github.com/aditiamahdar/simple_find"
+  s.summary     = "Rails Gem to raise not found error while using find for array/hash"
+  s.description = "It is shortcut for Rails so if we want to have array/hash finder which raise not found error, simply just use .find! rather than .find"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
@@ -19,5 +19,5 @@ Gem::Specification.new do |s|
 
   s.add_dependency "rails", "~> 4.2.6"
 
-  s.add_development_dependency "sqlite3"
+  # s.add_development_dependency "sqlite3"
 end
