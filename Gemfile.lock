@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    simple_find (0.0.1)
+    simple_find (0.0.3)
       rails (~> 4.2.6)
 
 GEM
